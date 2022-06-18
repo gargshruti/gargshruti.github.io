@@ -20,6 +20,13 @@ nav .icon {
     text-decoration: none;
     color: white;
 }
+.icon .links a{
+    color: white;
+}
+
+.icon .links a:link{
+    text-decoration: none;
+}
 
 .icon .profile {
     align-items: center;
@@ -252,6 +259,16 @@ hr{
     background-color: black;
     display: flex;
 }
+
+.foot .column1 a{
+    color: white;
+}
+
+.foot .column1 a:link{
+    text-decoration: none;
+}
+
+
 .foot .profile{
     text-align: end;
 }
