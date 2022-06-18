@@ -1,3 +1,6 @@
+*{
+    margin: 0%;
+}
 html{
     font-family: 'Raleway', sans-serif;
 }
@@ -8,7 +11,8 @@ nav .icon {
     background-color: rgb(31, 167, 144);
     padding-left: 10%;
     padding-right: 10%;
-    margin-top: 0px;
+    padding-top: 1%;
+    padding-bottom: 1%;
     justify-content: space-between;
 }
 
@@ -224,9 +228,13 @@ nav .menu {
     flex: 50%;
 }
 .button{
+    position: absolute;
     border: 0px;
     border-radius: 0px;
     margin-left: 0px;
+    padding: 0.2%;
+    background-color: rgb(31, 167, 144);
+    color: white;
 }
 hr{
     color: rgb(31, 167, 144);
@@ -256,4 +264,16 @@ h1 .highlight{
 }
 span .highlight{
     color: rgb(31, 167, 144);
+}
+
+.setting {
+    position: absolute;
+    z-index: 1;
+    top: 40%;
+    color: black;
+    background-color: white;
+    padding-left: 1%;
+    padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
 }
