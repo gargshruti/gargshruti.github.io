@@ -1,3 +1,3 @@
 # gargshruti.github.io
 
-Web Page view : gargshruti.github.io/
+Web Page view : https://gargshruti.github.io/
