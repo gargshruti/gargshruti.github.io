@@ -9,8 +9,8 @@ nav .icon {
     display: flex;
     color: white;
     background-color: rgb(31, 167, 144);
-    padding-left: 10%;
-    padding-right: 10%;
+    padding-left: 12%;
+    padding-right: 12%;
     padding-top: 1%;
     padding-bottom: 1%;
     justify-content: space-between;
@@ -78,15 +78,14 @@ nav .menu {
 
 .box {
     margin: auto;
-    padding: 2em;
+    padding: 1em;
     border: black;
     text-align: left;
     position: absolute;
     top: 70%;
     left: 41%;
+    padding-left: 2%;
     transform: translate(-50%, -50%);
-    padding-left: 5%;
-    padding-right: 5%;
 
 }
  
@@ -291,6 +290,30 @@ span .highlight{
     background-color: white;
     padding-left: 1%;
     padding-right: 1%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.left-slide {
+    position: absolute;
+    z-index: 1;
+    top: 65%;
+    font-size: medium;
+    color: white;
+    background-color: none;
+    padding-left: 10%;
+    padding-right: 10%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+.right-slide {
+    position: absolute;
+    z-index: 1;
+    top: 65%;
+    color: white;
+    padding-left: 88%;
+    padding-right: 93%;
     padding-top: 1%;
     padding-bottom: 1%;
 }
