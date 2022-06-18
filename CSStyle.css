@@ -84,7 +84,7 @@ nav .menu {
     position: absolute;
     top: 70%;
     left: 41%;
-    padding-left: 2%;
+    padding-left: 4%;
     transform: translate(-50%, -50%);
 
 }
@@ -301,7 +301,7 @@ span .highlight{
     font-size: medium;
     color: white;
     background-color: none;
-    padding-left: 10%;
+    padding-left: 12%;
     padding-right: 10%;
     padding-top: 1%;
     padding-bottom: 1%;
